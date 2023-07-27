@@ -1,0 +1,31 @@
+@charset "UTF-8";
+
+/* 
+Paleta de cores :
+    - Verde: #49a09d
+    - Lilás: #5f2c82
+ */
+
+ body {
+    background-color: #5f2c82;
+ }
+
+ section {
+    background-color: white;
+    width: 450px;
+    height:650px;
+    margin: auto;
+ }
+
+ .material-icons {
+    background-color: #271235;
+    padding-left: 10px;
+ }
+
+ #iemail {
+    margin-bottom: 8px;
+ }
+
+ .purple {
+    background-color: #271235;
+ }
