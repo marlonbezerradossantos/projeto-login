@@ -9,23 +9,21 @@ Paleta de cores :
  body {
     background-color: #5f2c82;
  }
-
+ 
  section {
-    background-color: white;
-    width: 450px;
-    height:650px;
-    margin: auto;
+   margin: auto;
+   width: 80vw;
  }
 
- .material-icons {
-    background-color: #271235;
-    padding-left: 10px;
+ .form {
+   background-color: white;
  }
 
- #iemail {
-    margin-bottom: 8px;
+ .input {
+   background-color: #5f2c82;
+   margin: 2px;
  }
 
- .purple {
-    background-color: #271235;
+ .icon {
+   width: 50px;
  }
