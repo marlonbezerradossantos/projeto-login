@@ -6,24 +6,55 @@ Paleta de cores :
     - Lilás: #5f2c82
  */
 
+ * {
+      box-sizing: border-box;
+      font-family: Arial, Helvetica, sans-serif;
+      margin:0px;
+      padding: 0px;
+  }
+
  body {
     background-color: #5f2c82;
  }
  
  section {
-   margin: auto;
-   width: 80vw;
+    margin: auto;
+    margin-top: 100px;
+    width: 56vw;
  }
+
+ input {
+      border: none;
+      border-radius: 6px;
+      height: 34px;
+      left: 45px;
+      position: absolute;
+      text-indent: 5px;
+      top: 2px;
+      width: 82%;
+  }
 
  .form {
-   background-color: white;
- }
+      background-color: white;
+      border-radius: 10px;
+      padding: 10px;
+  }
 
  .input {
-   background-color: #5f2c82;
-   margin: 2px;
+      background-color: #5f2c82;
+      border-radius: 5px;
+      height: 38px;
+      margin: 2px;
+      margin-bottom: 5px;
+      padding: 0.7px;
+      position: relative;
+  }
+
+ .key {
+    position: absolute;
+    left: 4px;
  }
 
  .icon {
-   width: 50px;
+    width: 35px;
  }
