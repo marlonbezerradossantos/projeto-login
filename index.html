@@ -6,6 +6,7 @@
     <title>Projeto login</title>
     <link rel="stylesheet" href="estilos/style.css">
     <link rel="stylesheet" href="estilos/media-queries.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" >
 </head>
 <body>
     <main class="main">
@@ -16,9 +17,22 @@
 
             <div class="section__main">
                 <h1 class="section__title">Login</h1>
-                <p class="section__p">Seja bem vindo(a) novamente. Faça login para acessar sua conta e poder fazer as configurações no seu ambiente</p>
-                <form action="#" class="section__form">
-
+                <p class="section__p">Seja bem vindo(a) novamente. Faça login para acessar sua conta e poder fazer as configurações no seu ambiente.</p>
+                <form action="login.php" class="section__form" autocomplete="on">
+                    <div class="form__field">
+                        <i class="material-icons form__icon" >person</i>
+                        <input type="email" class="form__input" id="email" required autocomplete="email" maxlength="30" placeholder="seu e-mail">
+                        <label for="email" class="form__label">E-mail:</label>
+                    </div>
+                    <div class="form__field">
+                        <i class="material-icons form__icon">vpn_key</i>
+                        <input type="password" class="form__input" id="senha" required autocomplete="current-password" minlength="8" maxlength="20" placeholder="sua senha">
+                        <label for="senha" class="form__label">Senha:</label>
+                    </div>
+                    <input type="submit" class="form__input--submit" >
+                    <a href="esqueci.html" class="form__input--esqueci">
+                        Esqueci a senha <i class="material-icons" id="icon">mail</i>
+                    </a>
                 </form>
             </div>
         </section>
